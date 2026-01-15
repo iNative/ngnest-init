@@ -6,6 +6,14 @@ Automazione Monorepo Nx per Angular & NestJS.
 ## > 📖 **Documentazione Completa:** 
 Per la guida visuale e il Master Log, apri <a href="https://inative.github.io/ngnest-init/" target="_blank">docs/index.html</a> nel tuo browser.
 
+## 💡 Why this Architecture?
+
+Più che un semplice boilerplate, questo è un framework operativo progettato per risolvere problemi reali dei team Full Stack:
+
+* **Zero "Context Switching":** Frontend e Backend condividono gli stessi modelli TypeScript. Modifichi l'API? Il client si aggiorna (o si rompe in build-time).
+* **Onboarding Istantaneo:** Lo script di init e la documentazione interattiva riducono il setup dell'ambiente da giorni a minuti.
+* **Documentation as Code:** La documentazione inclusa (`docs/`) non è statica. Include funzionalità interattive (Scope Injection) che adattano gli snippet di codice al nome del tuo progetto in tempo reale, eliminando gli errori di copia-incolla.
+* 
 ### feaures: 
 🛡️ End-to-End Type Safety
 
