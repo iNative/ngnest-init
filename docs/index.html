@@ -330,7 +330,7 @@ npx nx g @nx/js:library --name=shared-data --directory=libs/shared-data --bundle
             <h3>1. Definisci nella libreria condivisa</h3>
             <p>File: <code>libs/shared-data/src/lib/user.interface.ts</code></p>
             <div class="code-container">
-                <div class="code-header"><div>user.interface.ts</div><button class="copy-btn" onclick="copyToClipboard(this)">Copia</button></div>
+                <div class="code-header"><div>user.interface.ts</div></div>
                 <pre><code><span class="ctl">export</span> <span class="kwd">interface</span> <span class="cls">UserProfile</span> {
     id: <span class="kwd">string</span>;
     email: <span class="kwd">string</span>;
@@ -341,7 +341,7 @@ npx nx g @nx/js:library --name=shared-data --directory=libs/shared-data --bundle
             <h3>2. Importa (Automaticamente collegato)</h3>
             <p>Grazie al <code>tsconfig</code> centralizzato, importi la lib come se fosse un pacchetto npm.</p>
             <div class="code-container">
-                <div class="code-header"><div>app.component.ts</div><button class="copy-btn" onclick="copyToClipboard(this)">Copia</button></div>
+                <div class="code-header"><div>app.component.ts</div></div>
                 <pre><code><span class="ctl">import</span> { UserProfile } <span class="ctl">from</span> <span class="str">'@olon-platform/shared-data'</span>;</code></pre>
             </div>
         </section>
@@ -450,6 +450,7 @@ npx nx g @nx/js:library --name=shared-data --directory=libs/shared-data --bundle
 
 </body>
 </html>
+
 
 
 
