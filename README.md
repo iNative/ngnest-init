@@ -19,10 +19,10 @@ Struttura a cartelle scalabile, caching intelligente e naming convention forzate
 🚀 Quick Start: Inizializzazione
 --------------------------------
 
-Salva il seguente codice nel file `olon-init.sh`.  
+Salva il seguente codice nel file `ngnest-init.sh`.  
 Lo script gestisce interattivamente nomi, errori e configura i default del workspace.
 
-olon-init.sh
+ngnest-init.sh
 
 Copia
 
@@ -114,7 +114,7 @@ Terminal
 
 Copia
 
-    bash olon-init.sh
+    bash ngnest-init.sh
 
 🔄 Workflow: Shared Types
 -------------------------
@@ -217,7 +217,7 @@ Crea una nuova libreria TS condivisa nel monorepo.
 🐛 Troubleshooting
 ------------------
 
-*   **Errore `$'\r': command not found`:** Il file ha terminatori Windows (CRLF). Esegui `dos2unix olon-init.sh` o converti in LF dal tuo editor.
+*   **Errore `$'\r': command not found`:** Il file ha terminatori Windows (CRLF). Esegui `dos2unix ngnest-init.sh` o converti in LF dal tuo editor.
 *   **Errore `npm error Invalid URL`:** Causato anch'esso dai terminatori Windows. Converti in LF.
 *   **Node Permissions:** Se ricevi `EACCES`, significa che stai usando Node di root. Usa **NVM** con il tuo utente standard.
 
